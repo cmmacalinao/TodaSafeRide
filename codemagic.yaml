@@ -8,7 +8,7 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       node: 22
-      java: 17
+      java: 21
       vars:
         PACKAGE_NAME: "com.todasaferide.app"
     scripts:
@@ -42,7 +42,7 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       node: 22
-      java: 17
+      java: 21
       # Create a "keystore_credentials" group in the Codemagic dashboard
       # (Teams > your team > Environment variables) with:
       #   CM_KEYSTORE            – base64-encoded .jks/.keystore file
