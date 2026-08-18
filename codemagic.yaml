@@ -2,7 +2,10 @@ workflows:
   android-debug:
     name: Android Debug APK
     max_build_duration: 60
-    instance_type: linux
+    # Linux/Windows machines need a payment method on file (Pay-as-you-go).
+    # The Free plan's included minutes are macOS-only, so Android builds run
+    # on the same free Mac mini M2 machine as the iOS workflow below.
+    instance_type: mac_mini_m2
     environment:
       node: 20
       java: 17
@@ -32,7 +35,10 @@ workflows:
   android-release:
     name: Android Release Bundle (signed)
     max_build_duration: 60
-    instance_type: linux
+    # Linux/Windows machines need a payment method on file (Pay-as-you-go).
+    # The Free plan's included minutes are macOS-only, so Android builds run
+    # on the same free Mac mini M2 machine as the iOS workflow below.
+    instance_type: mac_mini_m2
     environment:
       node: 20
       java: 17
