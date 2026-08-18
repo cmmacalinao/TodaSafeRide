@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  /* The hamburger drawer (NavDrawer.tsx) sits off-screen via
+     `-translate-x-full` on a `fixed left-0` element while closed — some
+     browsers still count that transformed position in the page's
+     scrollable width, which drags the viewport's scroll origin left and
+     shoves all the real (centered) content over to the right edge. This
+     is the standard fix: never let the page scroll horizontally at all. */
+  overflow-x: hidden;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TodaSafeRide</string>
+    <string name="title_activity_main">TodaSafeRide</string>
+    <string name="package_name">com.todasaferide.app</string>
+    <string name="custom_url_scheme">com.todasaferide.app</string>
+</resources>

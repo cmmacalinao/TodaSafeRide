@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "PowerShell(node -v)",
+      "PowerShell(npm -v)",
+      "PowerShell(winget --version)",
+      "PowerShell(winget install OpenJS.NodeJS.LTS)",
+      "PowerShell(winget install OpenJS.NodeJS.LTS --source winget --accept-package-agreements --accept-source-agreements)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); node -v; npm -v)",
+      "mcp__Claude_Browser__preview_start"
+    ]
+  }
+}

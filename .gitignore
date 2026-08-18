@@ -1,0 +1,38 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS
+.DS_Store
+
+# PWA generated
+dev-dist
+
+# Android native build
+android/app/build
+android/build
+android/.gradle
+android/local.properties
+android/captures
+android/app/release
+android/*.iml
+android/.idea
+android/app/src/main/assets/public
+
+# iOS native build
+ios/App/build
+ios/App/Pods
+ios/App/output
+ios/App/App/public
+ios/App/App.xcworkspace/xcuserdata
+ios/App/App.xcodeproj/xcuserdata
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserstate

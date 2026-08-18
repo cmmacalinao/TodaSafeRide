@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "tricycle-booking-app",
+      "runtimeExecutable": "D:\\00 CLAUDE APPS\\TodaRide- version5\\.claude\\dev.cmd",
+      "runtimeArgs": [],
+      "port": 5190,
+      "autoPort": true
+    },
+    {
+      "name": "tricycle-booking-app-preview",
+      "runtimeExecutable": "D:\\00 CLAUDE APPS\\TodaRide- version5\\.claude\\preview.cmd",
+      "runtimeArgs": [],
+      "port": 4190,
+      "autoPort": true
+    }
+  ]
+}
