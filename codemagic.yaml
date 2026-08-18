@@ -7,7 +7,7 @@ workflows:
     # on the same free Mac mini M2 machine as the iOS workflow below.
     instance_type: mac_mini_m2
     environment:
-      node: 20
+      node: 22
       java: 17
       vars:
         PACKAGE_NAME: "com.todasaferide.app"
@@ -40,7 +40,7 @@ workflows:
     # on the same free Mac mini M2 machine as the iOS workflow below.
     instance_type: mac_mini_m2
     environment:
-      node: 20
+      node: 22
       java: 17
       # Create a "keystore_credentials" group in the Codemagic dashboard
       # (Teams > your team > Environment variables) with:
@@ -87,7 +87,7 @@ workflows:
       # here by the name you gave that integration.
       app_store_connect: codemagic
     environment:
-      node: 20
+      node: 22
       xcode: latest
       cocoapods: default
       ios_signing:
