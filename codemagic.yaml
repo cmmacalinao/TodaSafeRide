@@ -21,6 +21,7 @@ workflows:
       - name: Build debug APK
         script: |
           cd android
+          chmod +x gradlew
           ./gradlew assembleDebug
     artifacts:
       - android/app/build/outputs/**/*.apk
@@ -66,6 +67,7 @@ workflows:
       - name: Build release AAB
         script: |
           cd android
+          chmod +x gradlew
           ./gradlew bundleRelease
     artifacts:
       - android/app/build/outputs/**/*.aab
